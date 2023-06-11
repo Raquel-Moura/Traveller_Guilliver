@@ -540,6 +540,7 @@ header .btn_login_popup:hover{
 }
 .section__jornada{
     width: 100%;
+    background-color: var(--branco-gelo);
 }
 .container__jornada{
     width: 70%;
@@ -547,7 +548,7 @@ header .btn_login_popup:hover{
 }
 .sobre_titulo {
     color: var(--nova-cor);
-    font-size: 22px;
+    font-size: 19px;
     font-weight: bold;
     padding-left: 50px;
     padding-right: 50px;
@@ -558,14 +559,11 @@ header .btn_login_popup:hover{
 
 .sobre_paragrafo {
     color: var(--grafite);
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 1em;
     margin-bottom: 1em;
     padding-left: 50px;
     padding-right: 50px;
-   
-    
-
 }
 
 
@@ -577,6 +575,7 @@ header .btn_login_popup:hover{
     background-position: center;
     background-size: 1550px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/aluguel\ de\ carro.jpeg");
+    background-repeat: no-repeat;
 }
 
 
@@ -593,7 +592,7 @@ header .btn_login_popup:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--branco);
+    background-color: var(--branco-gelo);
     height: 80vh;
     color: var(--branco);
 }
@@ -604,26 +603,23 @@ header .btn_login_popup:hover{
     border-radius: 5px;
     display: flex;
     align-items: center;
-   /* position: relative;*/
     gap: 10px;
 }
 .buscar{
     flex-direction: column;
 }
-
+.div_retirada{
+    padding-bottom: 1em;
+}
 .span_retirada{
-
     font-size: 14px;
     font-weight: 500;
     color: var(--branco);
-    
-      
 }
 .input_carro::placeholder{
     color: var(--azul-escuro);
     font-size: 14px;
     font-family: var(--fonte-principal);
-    
 }
 .input_carro{
     width: 30vw;
@@ -631,8 +627,8 @@ header .btn_login_popup:hover{
     border: none;
     border-radius: 5px;
     padding: 2em 1em;
-   
 }
+
 
 /*datas*/
 .datas input{
@@ -642,6 +638,9 @@ header .btn_login_popup:hover{
     border-radius: 5px;
     padding-right: 1em;
 }
+.div_data{
+    padding-bottom: 1em;
+}
 .span_data{
     font-size: 14px;
     font-weight: 500;
@@ -650,7 +649,7 @@ header .btn_login_popup:hover{
 /*passageiros*/
 .passageiro select{
     background-color: var(--branco);
-    padding: 1.6em 2.9em;
+    padding: 1.6em 2em;
     border:2px solid var(--branco);
     border-radius: 5px;
     color: var(--azul-escuro);
@@ -658,16 +657,14 @@ header .btn_login_popup:hover{
     font-weight: bold;
     padding-right: 1em;
 }
+.div_passageiro{
+    padding-bottom: 1em;
+}
 .span_passageiro{
     font-size: 14px;
     font-weight: 500;
     color: var(--branco);
 }
-
-
-
-
-
 
 /*burcar carros*/
 .button__carros button{
@@ -678,11 +675,10 @@ header .btn_login_popup:hover{
     color: var(--azul-escuro);
     font-weight: bold;
     font-size: 18px;
+    margin-top: 2em;
 }
 .button__carros button:hover{
     background-color: transparent;
    color: var(--branco);
    transition: 0.5s
 }
-
-
