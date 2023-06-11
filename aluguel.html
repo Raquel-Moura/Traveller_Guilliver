@@ -110,14 +110,15 @@
             </div>
         </div>
     </section>
-
-     <!--campo de pesquisa carros-->
+    <!--campo de pesquisa carros-->
     <section class="container_pesquisar-carros">
 
         <nav class="base_carros">
 
             <label class="buscar">
-                <span class="span_retirada">Lugar de retirada</span>
+                <div class="div_retirada">
+                   <span class="span_retirada">Lugar de retirada</span> 
+                </div>
                 
                 <form action="" method="POST" id="" class="lugar_de_retirada">
                     <input   class="input_carro" type="search" id="lugar_de_retirada" placeholder="Informe a cidade ou o aeroporto" autofocus>
@@ -125,7 +126,7 @@
             </label>
 
             <label class="datas">
-                <div>
+                <div class="div_data">
                     <span class="span_data" >Data de retirada</span>
                 </div>
                 <form form action="" method="POST" id="" name="dados">
@@ -134,7 +135,7 @@
             </label>
 
             <label class="datas">
-                <div>
+                <div class="div_data">
                     <span class="span_data" >Data de devolução</span>
                 </div>
                 <form form action="" method="POST" id="" name="dados">
@@ -143,26 +144,27 @@
             </label>
 
             <label class="passageiro">
-                <div>
-                    <span class="span_passageiro" >Passageiros</span>
+                <div class="div_passageiro">
+                    <span class="span_passageiro">Passageiros</span>
                 </div>
                 <form action="" method="POST" class="quantidade_de_passageiros">
                         <select name="" id="quantidade_de_passageiros">
                             <option value="0" disabled selected>0</option class="opcao__passageiro" >
-                            <option value="1">01</option>
-                            <option value="1">02</option>
-                            <option value="2">03</option>
-                            <option value="3">04</option>
+                            <option class="option" value="1">01</option>
+                            <option value="2">02</option>
+                            <option value="3">03</option>
+                            <option value="4">04</option>
+                            <option value="5">05</option>
                         </select>
                 </form>
             </label>
 
             <label class="button__carros">
                 <button>Buscar</button>
-             </label>
+            </label>
         </nav>
     </section>
-
+<!--inicio rodape-->
     <footer class="rodape">
         <section class="ultima__sessão">
             <div class="traveller__descricao">
@@ -175,15 +177,13 @@
                     <div class="icones__socias">
                         <ion-icon class="sociais" name="logo-instagram"></ion-icon>
                         <ion-icon class="sociais" name="logo-linkedin"></ion-icon>
-                        <!--<ion-icon class="sociais" name="logo-whatsapp"></ion-icon>-->
-                        <!--<ion-icon class="sociais" name="logo-facebook"></ion-icon>-->
                     </div>
                 </div>
             </div>
             <div class="links_rapido">
-                <a href="#">Início</a>
-                <a href="#">Sobre</a>
-                <a href="#"">Aluguel de carro</a>
+                <a href="./index.html">Início</a>
+                <a href="./sobre.html">Sobre</a>
+                <a href="./aluguel.html">Aluguel de carro</a>
         </div>
         <div class=" termos__condicoes">
                     <a href="#">Termos e condições</a>
