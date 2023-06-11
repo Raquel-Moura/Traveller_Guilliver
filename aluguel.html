@@ -111,19 +111,57 @@
         </div>
     </section>
 
-<section class="section__jornada">
-    <div class="container__jornada">
-        <p class="sobre_paragrafo">O objetivo da plataforma Gulliver é fornecer a você todas as informações necessárias
-            para planejar suas viagens de
-            maneira fácil e conveniente. Em nosso site, você encontrará uma ampla variedade de detalhes sobre destinos
-            fascinantes
-            ao redor do mundo. Queremos que você conheça cada canto especial do seu próximo destino, desde os pontos
-            turísticos mais
-            emblemáticos até as joias escondidas que só os moradores conhecem.</p>
+     <!--campo de pesquisa carros-->
+    <section class="container_pesquisar-carros">
 
+        <nav class="base_carros">
 
-    </div>
-</section>
+            <label class="buscar">
+                <span class="span_retirada">Lugar de retirada</span>
+                
+                <form action="" method="POST" id="" class="lugar_de_retirada">
+                    <input   class="input_carro" type="search" id="lugar_de_retirada" placeholder="Informe a cidade ou o aeroporto" autofocus>
+                </form>
+            </label>
+
+            <label class="datas">
+                <div>
+                    <span class="span_data" >Data de retirada</span>
+                </div>
+                <form form action="" method="POST" id="" name="dados">
+                    <input type="date" id="data" placeholder="Data de retirada">
+                </form>
+            </label>
+
+            <label class="datas">
+                <div>
+                    <span class="span_data" >Data de devolução</span>
+                </div>
+                <form form action="" method="POST" id="" name="dados">
+                    <input type="date" id="data" placeholder="Data de retirada">
+                </form>
+            </label>
+
+            <label class="passageiro">
+                <div>
+                    <span class="span_passageiro" >Passageiros</span>
+                </div>
+                <form action="" method="POST" class="quantidade_de_passageiros">
+                        <select name="" id="quantidade_de_passageiros">
+                            <option value="0" disabled selected>0</option class="opcao__passageiro" >
+                            <option value="1">01</option>
+                            <option value="1">02</option>
+                            <option value="2">03</option>
+                            <option value="3">04</option>
+                        </select>
+                </form>
+            </label>
+
+            <label class="button__carros">
+                <button>Buscar</button>
+             </label>
+        </nav>
+    </section>
 
     <footer class="rodape">
         <section class="ultima__sessão">
